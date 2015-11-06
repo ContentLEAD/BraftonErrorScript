@@ -294,11 +294,11 @@ class BraftonErrorReport {
         /**
          * Wordpress example
          * $post_args = array(
-            'body' => array(
-                'error' => json_encode($errorlog)
-            )
-        );
-        wp_remote_post($this->post_url, $post_args);
+         *  'body' => array(
+         *        'error' => json_encode($errorlog)
+         *    )
+         * );
+         * wp_remote_post($this->post_url, $post_args);
         */
     }
 
